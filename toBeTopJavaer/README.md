@@ -4,9 +4,9 @@ Inspired by https://github.com/hollischuang/toBeTopJavaer
 
 ## Java Basic
 
-### Object-Oriented Programming
+## Object-Oriented Programming
 
-#### What is Object-Oriented Programming(OOP)?
+### What is Object-Oriented Programming(OOP)?
 
 Object-Oriented Programming is a programming paradigm based on the concept of "objects", which can contain data, in the form of fields(attributes), and code, in the form of procedures(methods). (Quoting from [Wikipedia](https://en.wikipedia.org/wiki/Object-oriented_programming))
 
@@ -43,5 +43,19 @@ Java is always **pass-by-value**.
 Read More: https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value
 
 ### Difference between "overload" and "override" in Java?
+  
+* @override:
+* overloading:
 
+## Basic Knowledge of Java
+
+### Primitive Data Type
+
+* Byte
+* Boolean
+* Int
+* Double
+* Long
+* Float
+* Character
 
