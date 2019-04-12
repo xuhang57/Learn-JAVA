@@ -47,15 +47,19 @@ Read More: https://stackoverflow.com/questions/40480/is-java-pass-by-reference-o
 * @override:
 * overloading:
 
-## Basic Knowledge of Java
+### What are the primitive data type and their range?
 
-### Primitive Data Type
+### What is the float type? And what is single float and double float?
 
-* Byte
-* Boolean
-* Int
-* Double
-* Long
-* Float
-* Character
+### What is boxing and unboxing?
+
+### How does the Integer cache works?
+
+### Why String is immutable?
+
+### What is the difference of the substring implementation between Java 6 and 7?
+
+
+
+
 
