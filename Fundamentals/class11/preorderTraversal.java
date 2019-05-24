@@ -28,7 +28,7 @@ public class Solution {
         if (node == null) {
             return;
         }
-        res.append(node.key);
+        res.add(node.key);
         helper(node.left, res);
         helper(node.right, res);
     }

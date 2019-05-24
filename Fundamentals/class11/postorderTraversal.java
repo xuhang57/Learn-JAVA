@@ -26,6 +26,6 @@ class Solution {
         }
         helper(node.left, res);
         helper(node.right, res);
-        res.append(node.key);
+        res.add(node.key);
     }
 }
