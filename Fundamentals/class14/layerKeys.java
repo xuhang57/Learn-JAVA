@@ -1,0 +1,35 @@
+class TreeNode {
+    int value;
+    TreeNode left;
+    TreeNode right;
+    public TreeNode(int v) {
+        value = v;
+    }
+}
+
+class Solution {
+    public List<List<Integer>> layerByLayer(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<List<Integer>>();
+        if(root == null) {
+            return res;
+        }
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.offer(root);
+        while(!queue.isEmpty()) {
+            List<Integer> curLayer = new ArrayList<Integer>();
+            int size = queue.size();
+            for(int i = 0; i < size; i++) {
+                TreeNode cur = queue.poll();
+                curLayer.add(cur.key);
+                if(cur.left != null) {
+                    queue.offer(cur.left);
+                }
+                if(cur.right != null) {
+                    queue.offer(cur.right);
+                }
+            }
+            res.add(curLayer);
+        }
+        return res;
+    }
+}
