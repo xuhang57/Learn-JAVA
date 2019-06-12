@@ -7,7 +7,7 @@ public class ListNode {
     }
 }
 
-class myQueue {
+class MyQueue {
     private ListNode head;
     private ListNode tail;
     
